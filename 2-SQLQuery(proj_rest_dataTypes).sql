@@ -24,5 +24,7 @@ INSERT INTO temps VALUES ('2020-01-26'); -- date in english
 
 INSERT INTO temps VALUES ('20200126');  -- international format (except oracle used function TO_DATE())
 
+SET LANGUAGE 'us_english'
+
 SELECT *
 FROM temps;
